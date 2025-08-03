@@ -1,0 +1,24 @@
+{
+  "name": "module_08_amioli25506_pto2505_groupa_amirah_oliver_sdf05",
+  "version": "1.0.0",
+  "description": "Welcome to your **Tailwind Refactor Challenge!** This project is focused on applying Tailwind’s **utility-first approach** to design a fully responsive website footer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirah-oliver/Module_08_AMIOLI25506_PTO2505_GroupA_Amirah_Oliver_SDF05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirah-oliver/Module_08_AMIOLI25506_PTO2505_GroupA_Amirah_Oliver_SDF05/issues"
+  },
+  "homepage": "https://github.com/amirah-oliver/Module_08_AMIOLI25506_PTO2505_GroupA_Amirah_Oliver_SDF05#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

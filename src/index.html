@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>responsive footer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class= "bg-white text-gray-900">
+
+   <footer class= "bg-[#659f8f] text-[#313131] py-12">
+    <div class= "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Grid Layout -->
+      <div class= "grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+
+        <!-- Subscribe Section -->
+        <div class= "md:col-span-2">
+          <h2 class= "text-xl font-semibold mb-4">
+            Subscribe to our newsletter for updates.
+          </h2>
+          <form class= "flex flex-col sm:flex-row items-start sm:items-center">
+            <input 
+              type="email"
+              placeholder="Email Address"
+              class= "w-full sm:w-auto px-4 py-2 rounded-md text-gray-800 mb-3 sm:mb-0 sm:mr-4 focus:outline-none"
+              required
+            />
+            <button
+              type="submit"
+              class= "bg-[#d86943] text-white px-6 py-2 rounded-md font-semibold hover:bg-[#c75d38] transition"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <!-- Navigation Section -->
+        <div>
+          <h3 class= "text-md font-semibold mb-3">Navigation</h3>
+          <ul class= "space-y-2 text-sm">
+            <li>
+              <a href="/index.html" class= "hover:underline">Home</a>
+            </li>
+            <li>
+              <a href="/about.html" class= "hover:underline">Who We Are</a>
+            </li>
+            <li>
+              <a href="/philosophy.html" class= "hover:underline">Our Philosophy</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Technologies Section -->
+        <div>
+          <h3 class= "text-md font-semibold mb-3">Technologies We Use</h3>
+          <ul class= "space-y-2 text-sm">
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class= "hover:underline">
+                HTML
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class= "hover:underline">
+                CSS
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class= "hover:underline">
+                JavaScript
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Divider -->
+      <hr class= "my-8 border-[#d86943]" />
+
+      <!-- Logo Section -->
+      <div class= "flex justify-start">
+        <a href="https://www.codespace.co.za/" target="_blank">
+          <img 
+            src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+            alt="CodeSpace Logo"
+            class= "h-7"
+          />
+        </a>
+      </div>
+
+    </div>
+  </footer>
